@@ -1,0 +1,18 @@
+git config --global user.name""
+git config --global user.email""
+git config --list
+mkdir workspace
+cd workspace
+git clone link
+ls
+cd hello_test
+touch hello.py
+ls
+gedit hello.py
+git status
+git add hello.py
+git status
+git commit -m "ost"
+git status
+git push origin main 
+git remote set-url origin https://<token>@github.com/<username><reponame>
